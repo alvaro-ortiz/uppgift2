@@ -1,0 +1,85 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+@font-face {
+    font-family:GeosansLight;
+    src:url(GeosansLight.woff);
+}
+
+@font-face {
+    font-family:Jrhand;
+    src:url(jrhand.woff);
+}
+
+@font-face {
+    font-family:Blackjack;
+    src:url(blackjack.woff);
+    }
+
+body {
+    width:800px;
+    margin:auto;
+    font-family:GeosansLight;
+    font-size:14pt;
+    background-image:url('Kyrkbyn_Panorama3.jpg');
+    background-repeat:no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+h1 {
+    font-family:Jrhand;
+    font-size:50pt;
+    margin-top:3px;
+    margin-bottom:0px;
+}
+h2 {
+    font-family:Blackjack;
+    font-size:22pt;
+    margin-top:0px;
+    margin-bottom:5px;
+}
+
+div.image1, div.image3 {
+    clear: right;
+    float: right;
+    direction:rtl;
+}
+
+div.image2, div.image4 {
+    clear: left;
+    float: left;
+    direction:rtl;
+}
+
+img {
+    margin: 0px 10px 15px 20px;
+    border: 1px dotted black;
+}
+
+p {
+    text-align: justify;
+}
